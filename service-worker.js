@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.0a8498b85c072cbbfb8182fe608904f8.js"
+  "/precache-manifest.56a75557f80961a117a26612353d4ff4.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "YesPlayMusic"});
+workbox.core.setCacheNameDetails({prefix: "yesplaymusic"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
